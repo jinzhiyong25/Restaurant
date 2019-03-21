@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_login"
+    tools:context=".ui.activity.LoginActivity">
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="小慕餐厅"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id_ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_tv_title"
+        android:layout_marginTop="40dp"
+        android:background="#44ffffff"
+        android:hint="User Name"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/id_ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_ed_username"
+        android:layout_marginTop="4dp"
+        android:background="#44ffffff"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/id_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_ed_password"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="确定"
+        style="@style/Button_Large_Black"
+        />
+
+    <TextView
+        android:id="@+id/id_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_login"
+        android:layout_centerHorizontal="true"
+        android:text="手机注册"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+
+
+        />
+
+
+
+
+</RelativeLayout>
